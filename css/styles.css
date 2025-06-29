@@ -133,6 +133,10 @@ a {
     background-color: #2E2F42;
     text-align: center;
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url(/images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .solutions {
@@ -225,6 +229,24 @@ a {
 
 .values .part-name {
     margin-bottom: 8px;
+}
+
+.div-values-svg {
+    background-color: #F4F4FD;
+    border: 1px solid #8E8F99;
+    position: relative;
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.values-svg {
+    width: 64px;
+    height: 64px;
 }
 
 .team {
