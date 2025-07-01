@@ -286,7 +286,7 @@ a {
     /* background-color: #4D5AE5; */
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     /* border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -453,7 +453,7 @@ a {
 .footer-social-media-list-item {
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer .social-media-link:hover, 
