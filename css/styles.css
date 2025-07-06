@@ -98,14 +98,17 @@ a {
     line-height: 24px;
     font-weight: 500;
     letter-spacing: 0.02em;
-    /* color: #2E2F42; */
-    color: #404bbf;
+    color: #2E2F42;
     display: block;
     padding: 24px 0;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
-.navigation-link::after {
+.navigation-link.studio {
+    color: #404bbf;
+}
+
+.navigation-link.studio::after {
     content: "";
     width: 100%;
     position: absolute;
@@ -159,6 +162,7 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin: 0 auto;
 }
 
 .solutions {
@@ -338,6 +342,7 @@ a {
 
 .people .part-description {
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .people .part {
@@ -394,7 +399,7 @@ a {
 }
 
 
-.portfolio-img:hover .overlay {
+.portfolio .part:hover .overlay {
     transform: translateY(0);
 } 
 
